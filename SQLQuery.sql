@@ -18,14 +18,14 @@ CREATE TABLE Categorys (
 INSERT into Products 
 (ProductName ,CategoryId)
 VALUES
-('Перец',1),
-('Огурец' , 1),
-('Помидор' , 1),
-('Мандарин' , 2),
-('Яблоко' , 2),
-('Рис' , 3),
-('Мука' , 3),
-('Тушенка' , NULL)
+('РџРµСЂРµС†',1),
+('РћРіСѓСЂРµС†' , 1),
+('РџРѕРјРёРґРѕСЂ' , 1),
+('РњР°РЅРґР°СЂРёРЅ' , 2),
+('РЇР±Р»РѕРєРѕ' , 2),
+('Р РёСЃ' , 3),
+('РњСѓРєР°' , 3),
+('РўСѓС€РµРЅРєР°' , NULL)
 
 
 --6 Inserting data into Categorys
@@ -33,9 +33,9 @@ VALUES
 INSERT into Categorys 
 (CategoryName ,CategoryId)
 VALUES
-('Овощ',1),
-('Фрукт' , 2),
-('Крупа' , 3)
+('РћРІРѕС‰',1),
+('Р¤СЂСѓРєС‚' , 2),
+('РљСЂСѓРїР°' , 3)
 
 --7 Select
 SELECT Products.ProductName as Product, Categorys.CategoryName as category
